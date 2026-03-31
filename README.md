@@ -1,6 +1,16 @@
+# DevOps Midterm Project
 
+## Stack
+- **Backend**: Node.js + Express
+- **Frontend**: HTML + Nginx
+- **Database**: MongoDB
 
-DevOps Git Lab
-Author: Phung Van Duy Khoi
-Hello 2026
-Bye 2025
+## Run
+```bash
+docker compose up -d
+```
+
+- Frontend: http://localhost
+- Backend: http://localhost:3000
+- Health: http://localhost:3000/health
+- About: http://localhost:3000/about
